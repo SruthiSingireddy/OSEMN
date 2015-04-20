@@ -129,11 +129,11 @@ For the graphical presentation bar chart and line graph are drawn to show the cl
 <<graph,echo=TRUE, tidy=TRUE>>=
 # we create a dataframe and use ggplot2 to create a bar graph
 # our dataframe will have 2 columns -- langs and repos
-langs <-c("JavaScript", "Python")
-repos <-c(repos.js, repos.python)
+languages <-c("JavaScript", "Python")
+repositories <-c(repos.js, repos.python)
 
 #We use the data.frame function to bind the 2 columns together and create df
-df = data.frame(langs, repos)
+df = data.frame(languages, repositories)
 
 @
 
@@ -141,7 +141,7 @@ The graph below is a bar diagram and I used powerful \textbf{ggplot} library to 
 
 <<bar,echo=TRUE, tidy=TRUE>>=
 #Bar chart
-ggplot(data=df, aes(x=languages, y=repositories, fill=langs)) + geom_bar(stat="identity")
+ggplot(data=df, aes(x=languages, y=repositories, fill=languages)) + geom_bar(stat="identity")
 @
 The graph below is a line diagram and I used powerful \textbf{ggplot} library to draw it. In the graph below, x-axis represents languages ie., JavaScript and Python, y-axis represents number of repositories.  
 

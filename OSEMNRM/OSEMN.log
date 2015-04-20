@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.6)  20 APR 2015 11:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.6)  20 APR 2015 11:14
 entering extended mode
  %&-line parsing enabled.
 **OSEMN.tex
@@ -229,15 +229,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <figure/bar-1.pdf, id=17, 505.89pt x 505.89pt>
 File: figure/bar-1.pdf Graphic file (type pdf)
  <use figure/bar-1.pdf>
-Overfull \hbox (15.0pt too wide) in paragraph at lines 196--198
+Overfull \hbox (15.0pt too wide) in paragraph at lines 197--199
 [][]
  []
 
 [4] <figure/line-1.pdf, id=21, 505.89pt x 505.89pt>
 File: figure/line-1.pdf Graphic file (type pdf)
  <use figure/line-1.pdf>
-Overfull \hbox (15.0pt too wide) in paragraph at lines 207--207
-[][] 
+Overfull \hbox (15.0pt too wide) in paragraph at lines 208--209
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
  []
 
 [5 <./figure/bar-1.pdf>] [6 <./figure/line-1.pdf>] (./OSEMN.aux) )
@@ -247,7 +252,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 207--207
 ### bottom level 
 Here is how much of TeX's memory you used:
  3833 strings out of 495061
- 51814 string characters out of 1182622
+ 51825 string characters out of 1182622
  267441 words of memory out of 3000000
  7012 multiletter control sequences out of 15000+50000
  5493 words of font info for 21 fonts, out of 3000000 for 9000
@@ -259,7 +264,7 @@ Here is how much of TeX's memory you used:
 -texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb>
-Output written on OSEMN.pdf (6 pages, 117153 bytes).
+Output written on OSEMN.pdf (6 pages, 117050 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -158,14 +158,14 @@ The results show that javascript has 1291089 repositories and javascript has 633
 repos.js
 \end{Sinput}
 \begin{Soutput}
-[1] 1291863
+[1] 1291874
 \end{Soutput}
 \begin{Sinput}
 # Number of repositories in python
 repos.python
 \end{Sinput}
 \begin{Soutput}
-[1] 633509
+[1] 633515
 \end{Soutput}
 \end{Schunk}
 
@@ -176,12 +176,12 @@ For the graphical presentation bar chart and line graph are drawn to show the cl
 \begin{Sinput}
 # we create a dataframe and use ggplot2 to create a bar graph our dataframe
 # will have 2 columns -- langs and repos
-langs <- c("JavaScript", "Python")
-repos <- c(repos.js, repos.python)
+languages <- c("JavaScript", "Python")
+repositories <- c(repos.js, repos.python)
 
 # We use the data.frame function to bind the 2 columns together and create
 # df
-df = data.frame(langs, repos)
+df = data.frame(languages, repositories)
 \end{Sinput}
 \end{Schunk}
 
@@ -190,7 +190,8 @@ The graph below is a bar diagram and I used powerful \textbf{ggplot} library to 
 \begin{Schunk}
 \begin{Sinput}
 # Bar chart
-ggplot(data = df, aes(x = langs, y = repos, fill = langs)) + geom_bar(stat = "identity")
+ggplot(data = df, aes(x = languages, y = repositories, fill = languages)) + 
+    geom_bar(stat = "identity")
 \end{Sinput}
 
 \includegraphics[width=\maxwidth]{figure/bar-1} \end{Schunk}
@@ -199,14 +200,11 @@ The graph below is a line diagram and I used powerful \textbf{ggplot} library to
 \begin{Schunk}
 \begin{Sinput}
 # Line chart
-ggplot(data = df, aes(x = langs, y = repos, group = 1)) + geom_line(colour = "coral1", 
+ggplot(data = df, aes(x = languages, y = repositories, group = 1)) + geom_line(colour = "coral1", 
     size = 1) + geom_point(size = 3, fill = "white") + expand_limits(y = 0) + 
     scale_shape_manual(values = c(22, 21))
 \end{Sinput}
 
-\includegraphics[width=\maxwidth]{figure/line-1} \begin{Sinput}
-# end example code snip
-\end{Sinput}
-\end{Schunk}
+\includegraphics[width=\maxwidth]{figure/line-1} \end{Schunk}
 
 \end{document}
