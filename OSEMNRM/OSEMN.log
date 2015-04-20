@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.6)  20 APR 2015 11:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.6)  20 APR 2015 11:17
 entering extended mode
  %&-line parsing enabled.
 **OSEMN.tex
@@ -264,7 +264,7 @@ Here is how much of TeX's memory you used:
 -texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb>
-Output written on OSEMN.pdf (6 pages, 117050 bytes).
+Output written on OSEMN.pdf (6 pages, 116769 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
