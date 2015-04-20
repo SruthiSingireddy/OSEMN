@@ -141,15 +141,14 @@ The graph below is a bar diagram and I used powerful \textbf{ggplot} library to 
 
 <<bar,echo=TRUE, tidy=TRUE>>=
 #Bar chart
-ggplot(data=df, aes(x=langs, y=repos, fill=langs)) + geom_bar(stat="identity")
+ggplot(data=df, aes(x=languages, y=repositories, fill=langs)) + geom_bar(stat="identity")
 @
 The graph below is a line diagram and I used powerful \textbf{ggplot} library to draw it. In the graph below, x-axis represents languages ie., JavaScript and Python, y-axis represents number of repositories.  
 
 <<line,echo=TRUE, tidy=TRUE>>=
 #Line chart
-ggplot(data=df, aes(x=langs, y=repos, group=1)) +geom_line(colour="coral1",size=1)+geom_point(size=3, fill="white")+expand_limits(y=0)+scale_shape_manual(values=c(22,21))
+ggplot(data=df, aes(x=languages, y=repositories, group=1)) +geom_line(colour="coral1",size=1)+geom_point(size=3, fill="white")+expand_limits(y=0)+scale_shape_manual(values=c(22,21))
 
-# end example code snip
 @
 
 \end{document}
